@@ -1,0 +1,110 @@
+1	Neues Benutzer Account	Ihr Account wurde erstellt {benutzername}	Dear {benutzername},\
+<br>\
+an account is created for you. Now you can start create and recive workflows.\
+<br>\
+Please log in with this data:\
+<br>\
+<br>\
+CP Login = {ticketlogin}\
+<br>\
+Username = {benutzeremail}\
+<br>\
+Password = self-selected at registration\
+<br>\
+<br>\
+If you have forgotten your password, you can reset it here: {ticketlogin}\
+<br>\
+Use passwort vorgett link.\
+<br>\
+<br>\
+Have fun.\
+<br>\
+Best Reagrds\
+<br>\
+<br>\
+Admin	account@ticketsystem.de
+2	Neues Ticket	Neues Ticket von {absender} | {ticketbeschreibung}	Dear {benutzername},\
+<br>\
+<br>\
+{absender} has create a new ticket for you. Your asnwer is required.\
+<br>\
+This is ticket content:\
+<br>\
+<br>\
+{tickettext}\
+<br>\
+<br>\
+Best Reagrds\
+<br>\
+<br>\
+Admin	ticketmailer@ticketsystem.de
+3	Antwort auf ein Ticket	Answer for Ticket {ticketbeschreibung} from {absender}	Dear {benutzername},\
+<br>\
+<br>\
+{absender} has answered to your ticket.\
+<br>\
+This is ticket content:\
+<br>\
+<br>\
+{tickettext}\
+<br>\
+<br>\
+Best Reagrds\
+<br>\
+<br>\
+Admin	ticketanswer@ticketsystem.de
+4	Ticket Status geandert	The status of the ticket {ticketbeschreibung} has been changed.	Dear {benutzername},\
+<br>\
+<br>\
+{absender} has changed ticketstatus to: {ticketstatus}.\
+<br>\
+<br>\
+This is ticket content:\
+<br>\
+<br>\
+{tickettext}\
+<br>\
+<br>\
+Best Reagrds\
+<br>\
+<br>\
+Admin	status@ticketsystem.de
+5	Passwort vergessen	Your new password for ticketsystem	Dear {benutzername},\
+<br>\
+you have used the passsword lost feature.\
+<br>\
+Please login with temp password: {passwort} to ticketsystem.\
+<br>\
+Change your Password in settings area.\
+<br>\
+<br>\
+Logindata:\
+<br>\
+<br>\
+CP Login = {ticketlogin}\
+<br>\
+Username = {benutzeremail}\
+<br>\
+Password = {passwort}\
+<br>\
+<br>\
+Best Reagrds\
+<br>\
+<br>\
+Admin	security@ticketsystem.de
+6	Neuer Benutzer	A new user has registered | {newusername}	Dear Admin,\
+<br>\
+an account is created for {newusername}.\
+<br><br>\
+Now he can start create and recive workflows.\
+<br><br>\
+Username = {neuerbenutzername}\
+User e_mail = {neuebenutzeremail}\
+user status = {benutzerstatus}\
+<br><br>\
+If you have forgotten your password, you can reset it here: {ticketlogin}\
+Use passwort vorgett link.\
+<br><br>\
+Best Reagrds\
+<br><br>\
+System	security@ticketsystem.de

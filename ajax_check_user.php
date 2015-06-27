@@ -1,0 +1,1 @@
+<?phpsession_start();include 'connection.php';$result = 'true';     if(isset($_REQUEST['d2_email'])){		if(trim($_REQUEST['d2_email']) != ""){			$sql = mysql_query("Select * from user_mst where vEmail='".trim($_REQUEST['d2_email'])."'");			$res = mysql_num_rows($sql);			if($res >= 1){                    $result='false';			}	     }     }echo $result;?>
