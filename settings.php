@@ -13,6 +13,7 @@
      if(isset($_REQUEST['send'])) {
           $subject = $_REQUEST['betreff'];
           $text = mysql_real_escape_string($_REQUEST['emailtext']);
+          $text = str_replace('/n', '', str_replace('/r', '', $text));
           $sender = $_REQUEST['emailadresse'];
           $tid = $_REQUEST['tid'];
           if($subject != "" && $text != "" && $sender != "" && $tid != ""){

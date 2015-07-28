@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
 			d2_email: {
                     required: true,
                     email: true,
-                    remote: 'http://ticket.smootharrangement.de/ajax_check_user.php'
+                    remote: 'ajax_check_user.php'
 			},
 			d2_email1: {
                     required: true,
